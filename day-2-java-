@@ -1,0 +1,59 @@
+//c program specifying the particular char position from the string#include<stdio.h>#include<string.h>void main(){char str[100],c;int i,lenf=0;printf("\nenter a string:");gets(str);len=strlen(str);printf("\nenter a character to find its position:");scanf("%c",&c);for(i=0;i<len;i++){if(str[i]==c){printf("character position:\n%d",i+1);f=1;}}if(f==0){printf("\ncharacter not found");}}
+#include <stdio.h> int main() { int sec, h, m, s; printf("Input seconds: "); scanf("%d", &sec); h = (sec/3600); m = (sec -(3600h))/60; s = (sec -(3600h)-(m*60)); printf("H:M:S - %d:%d:%d\n",h,m,s); return 0;
+#include <conio.h>
+
+int main()
+
+{
+
+    int a[10000],i,n,key;
+
+  
+
+    printf("Enter size of the  array : ");
+
+    scanf("%d", &n);
+
+    printf("Enter elements in array : ");
+
+    for(i=0; i<n; i++)
+
+    {
+
+        scanf("%d",&a[i]);
+
+    }
+
+     printf("Enter the key : ");
+
+    scanf("%d", &key);
+
+    
+
+    for(i=0; i<n; i++)
+
+    {
+
+        if(a[i]==key)
+
+        {
+
+		printf("element found ");
+            return 0;
+
+        }
+
+ 
+
+    }
+
+    
+
+printf("element  not  found");
+}
+public class Contains { public static void main(String[] args) { int[] num = {1, 2, 3, 4, 5}; int toFind = 3; boolean found = false; for (int n : num) { if (n == toFind) { found = true; break; } } if(found) System.out.println(toFind + " is found."); else System.out.println(toFind + " is not found."); }
+ogram:
+
+public class ReverseArray {      public static void main(String[] args) {          //Initialize array          int [] arr = new int [] {1, 2, 3, 4, 5};          System.out.println("Original array: ");          for (int i = 0; i < arr.length; i++) {              System.out.print(arr[i] + " ");          }          System.out.println();          System.out.println("Array in reverse order: ");          //Loop through the array in reverse order          for (int i = arr.length-1; i >= 0; i--) {              System.out.print(arr[i] + " ");          }      }  }  
+
+Output:
